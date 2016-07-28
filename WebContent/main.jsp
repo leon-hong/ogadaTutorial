@@ -10,6 +10,7 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <style>
+
 /* NAV BAR헤더만큼 강제로 띄움. 점보트론 사용 방식 */
 body {
   padding-top: 50px;

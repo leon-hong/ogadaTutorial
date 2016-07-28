@@ -54,6 +54,7 @@ body {
  
 <div style="background-color: #eee;">  
 	<div class="container">
+	
 		<H1> 로그인 부탁드려요. </H1>
 		<h2> 그런데 대체 JSP가 뭐예요? </h2>
 	</div>
