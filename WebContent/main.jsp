@@ -29,7 +29,7 @@ body {
 		<H1> 접속 시간 : <%= request.getAttribute("today")%> </H1>
 		<h3> JSP가 뭐예요? </h3>
 		<p>Java Server Page (JSP) is a technology for controlling the content or appearance of Web pages through the use of servlets, small programs that are specified in the Web page and run on the Web server to modify the Web page before it is sent to the user who requested it. Sun Microsystems, the developer of Java, also refers to the JSP technology as the Servlet application program interface (API). JSP is comparable to Microsoft's Active Server Page (ASP) technology. Whereas a Java Server Page calls a Java program that is executed by the Web server, an Active Server Page contains a script that is interpreted by a script interpreter (such as VBScript or JScript) before the page is sent to the user.</p>
-		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+		<p><a class="btn btn-primary btn-lg" href="http://cafe.naver.com/ogadacoding/4" role="button">Learn more &raquo;</a></p>
 	</div>
 </div>
 

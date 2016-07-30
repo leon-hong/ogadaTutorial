@@ -1,6 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
+<script>
+
+$(document).ready(function(){
+	$("#navMenu li").click(function(){
+	    $("#navMenu li").removeClass("active");
+	    $(this).addClass("active");
+	});	
+});
+
+</script>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 
@@ -10,9 +21,9 @@
 			</div>
 
 			<div id="navbar" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
+				<ul id = "navMenu" class="nav navbar-nav">
 					<li class="active"><a href="main.jsp">Main</a></li>
-					<li><a href="jstl.jsp">JSTL</a></li>
+					<li><a href="jstl.jsp#JSTL">JSTL</a></li>
 					<li><a href="#Session">Session</a></li>
 					<li><a href="#DB">DB</a></li>
 				</ul>
