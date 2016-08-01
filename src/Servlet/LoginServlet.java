@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
 		}
 
 		String isLogin = "N";
-		String pathRes = "bootStrapLogin.jsp";
+		String pathRes = "index.jsp";
 		if (isSuccess) {
 			isLogin = "Y";
 			pathRes = "main.jsp";
